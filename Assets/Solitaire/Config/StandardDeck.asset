@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89824cbf17b93d4cad081b1fb40d6af, type: 3}
+  m_Name: StandardDeck
+  m_EditorClassIdentifier: Solitaire.Runtime::Solitaire.Decks.DeckDefinition
+  suits:
+  - id: clubs
+  - id: diamonds
+  - id: hearts
+  - id: spades
+  ranks:
+  - id: ace
+    order: 1
+  - id: two
+    order: 2
+  - id: three
+    order: 3
+  - id: four
+    order: 4
+  - id: five
+    order: 5
+  - id: six
+    order: 6
+  - id: seven
+    order: 7
+  - id: eight
+    order: 8
+  - id: nine
+    order: 9
+  - id: ten
+    order: 10
+  - id: jack
+    order: 11
+  - id: queen
+    order: 12
+  - id: king
+    order: 13
+  cards:
+  - suitId: clubs
+    rankId: ace
+    frontTexture: {fileID: 2800000, guid: 4029449652f84104284f3984ea1bfa1e, type: 3}
+  - suitId: clubs
+    rankId: two
+    frontTexture: {fileID: 2800000, guid: 97043e6d310adba4e8caa185a82bfdfd, type: 3}
+  - suitId: clubs
+    rankId: three
+    frontTexture: {fileID: 2800000, guid: 3e16c0d0f549cbe49bce5b92e8f099b2, type: 3}
+  - suitId: clubs
+    rankId: four
+    frontTexture: {fileID: 2800000, guid: 53f6eee2e557e794dbed1d25c33f3b72, type: 3}
+  - suitId: clubs
+    rankId: five
+    frontTexture: {fileID: 2800000, guid: c7cef772c76cf7542871bd83f2e5b33c, type: 3}
+  - suitId: clubs
+    rankId: six
+    frontTexture: {fileID: 2800000, guid: 6a8952b1ed95131489d8916a9032a558, type: 3}
+  - suitId: clubs
+    rankId: seven
+    frontTexture: {fileID: 2800000, guid: 8e9b06bd6042cad488a4ba7d92462921, type: 3}
+  - suitId: clubs
+    rankId: eight
+    frontTexture: {fileID: 2800000, guid: a5b408c0869445e479a7ad317f990a0e, type: 3}
+  - suitId: clubs
+    rankId: nine
+    frontTexture: {fileID: 2800000, guid: c46463036e631334ea1167c1e4d3df5e, type: 3}
+  - suitId: clubs
+    rankId: ten
+    frontTexture: {fileID: 2800000, guid: fa046a0b7e8292747964f7603fa18c76, type: 3}
+  - suitId: clubs
+    rankId: jack
+    frontTexture: {fileID: 2800000, guid: e29caf64f292ff64ca342364d3c71a6a, type: 3}
+  - suitId: clubs
+    rankId: queen
+    frontTexture: {fileID: 2800000, guid: d43d1f0e4ad0f8e4898f428878f44c0b, type: 3}
+  - suitId: clubs
+    rankId: king
+    frontTexture: {fileID: 2800000, guid: 38f1025359611ca4195a01e3fcaadfc7, type: 3}
+  - suitId: diamonds
+    rankId: ace
+    frontTexture: {fileID: 2800000, guid: 56da3ba6d17e4744d9d8006da723807a, type: 3}
+  - suitId: diamonds
+    rankId: two
+    frontTexture: {fileID: 2800000, guid: 61cc9be016a382a419e00f8ff4df79ff, type: 3}
+  - suitId: diamonds
+    rankId: three
+    frontTexture: {fileID: 2800000, guid: 7150333434a4ebc47817363441054919, type: 3}
+  - suitId: diamonds
+    rankId: four
+    frontTexture: {fileID: 2800000, guid: 6a04e89496b372348864c4f8838a73ba, type: 3}
+  - suitId: diamonds
+    rankId: five
+    frontTexture: {fileID: 2800000, guid: 8400f66b5f5aff04ca6e2098b98e81e0, type: 3}
+  - suitId: diamonds
+    rankId: six
+    frontTexture: {fileID: 2800000, guid: 4734a0360dcef1849aead96b58b3e773, type: 3}
+  - suitId: diamonds
+    rankId: seven
+    frontTexture: {fileID: 2800000, guid: a5592cd666566d646a4543136489da01, type: 3}
+  - suitId: diamonds
+    rankId: eight
+    frontTexture: {fileID: 2800000, guid: 657c832cc4fc5934399cd48fab33feb6, type: 3}
+  - suitId: diamonds
+    rankId: nine
+    frontTexture: {fileID: 2800000, guid: d974c6d3e4c4be845a4a33bf2e257cca, type: 3}
+  - suitId: diamonds
+    rankId: ten
+    frontTexture: {fileID: 2800000, guid: 5b20009eb2de4654d94317a4db23735b, type: 3}
+  - suitId: diamonds
+    rankId: jack
+    frontTexture: {fileID: 2800000, guid: 9e146767ab6446d489f2bea9f96de164, type: 3}
+  - suitId: diamonds
+    rankId: queen
+    frontTexture: {fileID: 2800000, guid: ee262d7121e7d8540b50d8894c91486f, type: 3}
+  - suitId: diamonds
+    rankId: king
+    frontTexture: {fileID: 2800000, guid: 44331f1481facfd42b16fc94aea7c768, type: 3}
+  - suitId: hearts
+    rankId: ace
+    frontTexture: {fileID: 2800000, guid: 0a5df27a9eb267541bf620494431a20d, type: 3}
+  - suitId: hearts
+    rankId: two
+    frontTexture: {fileID: 2800000, guid: 883b2b6e49311fd4eae26910d18123b4, type: 3}
+  - suitId: hearts
+    rankId: three
+    frontTexture: {fileID: 2800000, guid: 85732094be432b546963556d971f8a05, type: 3}
+  - suitId: hearts
+    rankId: four
+    frontTexture: {fileID: 2800000, guid: 2b202a7c29ed2834b9a487c53e85db63, type: 3}
+  - suitId: hearts
+    rankId: five
+    frontTexture: {fileID: 2800000, guid: 9b77116477c84834882c3f64be84e333, type: 3}
+  - suitId: hearts
+    rankId: six
+    frontTexture: {fileID: 2800000, guid: e2b7ca81895b74e4eadbb9307c537573, type: 3}
+  - suitId: hearts
+    rankId: seven
+    frontTexture: {fileID: 2800000, guid: 6fb2d2316ddd8d64fb44d460e3624d7b, type: 3}
+  - suitId: hearts
+    rankId: eight
+    frontTexture: {fileID: 2800000, guid: 0668d2c419caff74dabf8493fbbd1189, type: 3}
+  - suitId: hearts
+    rankId: nine
+    frontTexture: {fileID: 2800000, guid: 9b72ad0556a502c43b11a15df308c2f4, type: 3}
+  - suitId: hearts
+    rankId: ten
+    frontTexture: {fileID: 2800000, guid: 170bf671a47164b47bab490c8765bae5, type: 3}
+  - suitId: hearts
+    rankId: jack
+    frontTexture: {fileID: 2800000, guid: 6f5fbf78cf5a4df4ea5ff716143c0e9c, type: 3}
+  - suitId: hearts
+    rankId: queen
+    frontTexture: {fileID: 2800000, guid: 79c438c6b9b081f428a064f3c612c8a5, type: 3}
+  - suitId: hearts
+    rankId: king
+    frontTexture: {fileID: 2800000, guid: 31cbd46a2c35ab847ae68a4548c4f710, type: 3}
+  - suitId: spades
+    rankId: ace
+    frontTexture: {fileID: 2800000, guid: b9df007f9e2ccb449a2633686be405a9, type: 3}
+  - suitId: spades
+    rankId: two
+    frontTexture: {fileID: 2800000, guid: f7a3789536128bd4785706f0aaa45c28, type: 3}
+  - suitId: spades
+    rankId: three
+    frontTexture: {fileID: 2800000, guid: 903297dec3e42e942a1ce83b879fecb8, type: 3}
+  - suitId: spades
+    rankId: four
+    frontTexture: {fileID: 2800000, guid: 782960b9f4f026e49b2c03cee5d76ab6, type: 3}
+  - suitId: spades
+    rankId: five
+    frontTexture: {fileID: 2800000, guid: bb8c058bbbd882f409b3f7034b855431, type: 3}
+  - suitId: spades
+    rankId: six
+    frontTexture: {fileID: 2800000, guid: da77f9097cb363e4eaadcd1fd2e39a80, type: 3}
+  - suitId: spades
+    rankId: seven
+    frontTexture: {fileID: 2800000, guid: eb53b1fed0de54741abcfb5b7de38744, type: 3}
+  - suitId: spades
+    rankId: eight
+    frontTexture: {fileID: 2800000, guid: 3788c4b0c6ce71e418ac1056ae924615, type: 3}
+  - suitId: spades
+    rankId: nine
+    frontTexture: {fileID: 2800000, guid: d47eef1b334a5794e8f1d0cc65a7d745, type: 3}
+  - suitId: spades
+    rankId: ten
+    frontTexture: {fileID: 2800000, guid: bd5f09cb4a3de964391a9520e2c1cd2f, type: 3}
+  - suitId: spades
+    rankId: jack
+    frontTexture: {fileID: 2800000, guid: 823bd6726252d624284861d6281e3696, type: 3}
+  - suitId: spades
+    rankId: queen
+    frontTexture: {fileID: 2800000, guid: 4df774afe0c3bcd42b3dc6606e52aec1, type: 3}
+  - suitId: spades
+    rankId: king
+    frontTexture: {fileID: 2800000, guid: 950080f49f2c0d34ebfab03438f5fe5c, type: 3}
+  backSprite: {fileID: 0}
