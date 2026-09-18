@@ -28,7 +28,7 @@ resets or measured performance justified it.
 
 ## AI assistance
 
-AI was used as a pair-programming and review tool. I prompted it to propose a simple, expandable architecture;
+AI was used as a pair-programming and review tool. I proposed a simple, expandable architecture;
 scaffold parts of the model, command/history, presentation, drag, and test code; and review specific design
 and debugging questions such as incremental view updates, undoing grouped operations, and avoiding unnecessary
 coupling or allocations. I iteratively challenged and refined its suggestions rather than accepting them unchanged.
